@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b18b5e2fa2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>ArtPiecePricing</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Art Piece Pricing</h1>
+        <h2>calculate the prices for your art pieces</h2>
+      </header>
+      <div class="row">
+        <h3>Conversion of area measurements</h3>
+
+        <form class="row conversion">
+          <div class="col-md-8">
+            <label for="inputNumber" class="form-label">Number</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputNumber"
+              placeholder="insert number to convert"
+            />
+          </div>
+
+          <div class="col-md-8">
+            <label for="inputUnit" class="form-label">Unit</label>
+            <select id="inputUnit" class="form-select">
+              <option selected>Choose...</option>
+              <option>in^2 --> cm^2</option>
+              <option>cm^2 --> in^2</option>
+            </select>
+          </div>
+<div class="col-1">
+            <button type="submit" class="btn btn-primary">convert</button>
+          </div>
+          </div>
+          
+        </form>
+      </div>
+<a href="./index.html">back to main page</a>
+      <footer>
+        This project is created by
+        <a
+          href="https://www.martilda.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          mARTilda
+        </a>
+        , is open-sourced on
+        <a
+          href="https://github.com/mARTilda-art/react-weather-frog"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
+        and is hosted on
+        <a
+          href="https://earnest-belekoy-225853.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Netlify
+        </a>
+      </footer>
+    </div>
+    <script src="src/app.js"></script>
+  </body>
+</html>
