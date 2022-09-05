@@ -30,7 +30,7 @@
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <div class="navbar-toggler-icon"></div>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -71,44 +71,31 @@
         </p>
       </header>
       <h2>0. choose currency per unit</h2>
-     
  
- 
-  <div class="row">
-    <select class="form-select" aria-label="Default select unit">
-  <option selected>Choose currency per unit</option>
-  <option value="1">€ per cm^2</option>
-  <option value="2">$ per inch^2</option>
-  <option value="3">£ per inch^2</option> 
-    </select>
+    <div class="row">
+      <select class="form-select" aria-label="Default select unit">
+    <option selected>Choose currency per unit</option>
+    <option value="1">€ per cm^2</option>
+    <option value="2">$ per inch^2</option>
+    <option value="3">£ per inch^2</option> 
+      </select>
 
-    
-
-
-  </div>
-
-      <h2>1. determine your artistic price factor</h2>
-
-       <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCurrencyMeasurement" aria-expanded="false" aria-controls="collapseCurrencyMeasurement">
-    open currency and measurement
-  </button>
-
-<div class="collapse" id="collapseCurrencyMeasurement">
-  <div class="row">
-    <select class="form-select" aria-label="Default select unit">
-  <option selected>Choose currency per unit</option>
-  <option value="1">€ per cm^2</option>
-  <option value="2">$ per inch^2</option>
-  <option value="3">£ per inch^2</option> 
-    </select>
-  </div>
 </div>
-
+      <h2>1. determine your artistic price factor</h2>
+      <p> link to calculate artistic price factor</p>
+     
+      <div class="mb-3 InputAPF">
+        <label for="FormControlInputAPF" class="form-label">Input Artistic Price Factor</label>
+        <input type="text" class="form-control" id="FormControlInputAPF" placeholder="Input Artistic Price Factor">
+      </div>
 
       <h2>2. determine other factors</h2>
       <h2>3. receive your price list</h2>
 
 
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCurrencyMeasurement" aria-expanded="false" aria-controls="collapseCurrencyMeasurement">
+          open currency and measurement
+      </button>
 
 
 
